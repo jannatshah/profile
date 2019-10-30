@@ -4,6 +4,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #F8FFFC;
+  line-height: 1.6;
 }
 
 h1, h2 {
@@ -24,7 +25,6 @@ a {
   font-weight: 800;
   color: #388697;
 }
-
 
 .container {
   width: 650px;
