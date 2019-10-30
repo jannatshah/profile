@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #F8FFFC;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: rgba(30, 30, 30, 0.9);
+}
+
+h2 {
+  color: #16739E;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: #388697;
+}
+
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button-blue {
+  background-color: #6807f9;
+  color: white;
+  padding: 15px 30px;
+  margin: 45px, 30px;
+  border-radius: 6px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #6807f9;
+    /*color: rgb(150, 150, 150);*/
+}
