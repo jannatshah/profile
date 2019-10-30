@@ -81,11 +81,11 @@ a {
 
 .list-inline li {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 18px;
 }
 
 .list-inline i {
-    font-size: 30px;
+    font-size: 25px;
     color: #6807f9;
     /*color: rgb(150, 150, 150);*/
 }
